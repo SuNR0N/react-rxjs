@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "isbn": "9780132350884",
+    "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "publicationDate": "2008-08-11"
+  },
+  {
+    "id": 2,
+    "isbn": "9780201616224",
+    "title": "The Pragmatic Programmer",
+    "publicationDate": "1999-10-20"
+  },
+  {
+    "id": 3,
+    "isbn": "9780596007126",
+    "title": "Head First Design Patterns",
+    "publicationDate": "2004-11-04"
+  },
+  {
+    "id": 4,
+    "isbn": "9780596517748",
+    "title": "JavaScript: The Good Parts",
+    "publicationDate": "2008-05-18"
+  },
+  {
+    "id": 5,
+    "isbn": "9780596806750",
+    "title": "JavaScript Patterns: Build Better Applications with Coding and Design Patterns",
+    "publicationDate": "2010-10-01"
+  },
+  {
+    "id": 6,
+    "isbn": "9780984782857",
+    "title": "Cracking the Coding Interview, 6th Edition: 189 Programming Questions and Solutions",
+    "publicationDate": "2015-07-01"
+  },
+  {
+    "id": 7,
+    "isbn": "9780991344604",
+    "title": "ng-book - The Complete Book on AngularJS",
+    "publicationDate": "2013-12-09"
+  },
+  {
+    "id": 8,
+    "isbn": "9780991344611",
+    "title": "ng-book 2: The Complete Book on Angular 2: Volume 2",
+    "publicationDate": "2016-11-29"
+  },
+  {
+    "id": 9,
+    "isbn": "9781118957400",
+    "title": "OCA: Oracle Certified Associate Java SE 8 Programmer I Study Guide: Exam 1Z0-808",
+    "publicationDate": "2015-01-22"
+  },
+  {
+    "id": 10,
+    "isbn": "9781119067900",
+    "title": "OCP: Oracle Certified Professional Java Se 8 Programmer II Study Guide: Exam 1Z0-809",
+    "publicationDate": "2016-01-12"
+  },
+  {
+    "id": 11,
+    "isbn": "9781430264484",
+    "title": "Pro AngularJS (Expert's Voice in Web Development)",
+    "publicationDate": "2014-03-27"
+  },
+  {
+    "id": 12,
+    "isbn": "9781449336363",
+    "title": "JS.Next: ECMAScript 6",
+    "publicationDate": "2016-08-25"
+  },
+  {
+    "id": 13,
+    "isbn": "9781491904244",
+    "title": "You Don't Know JS: ES6 & Beyond",
+    "publicationDate": "2016-08-25"
+  },
+  {
+    "id": 14,
+    "isbn": "9781491965979",
+    "title": "Production-Ready Microservices: Building Standardized Systems Across an Engineering Organization",
+    "publicationDate": "2016-12-09"
+  },
+  {
+    "id": 15,
+    "isbn": "9781492034025",
+    "title": "Building Microservices: Designing Fine-Grained Systems",
+    "publicationDate": "2018-09-30"
+  },
+  {
+    "id": 16,
+    "isbn": "9781512214567",
+    "title": "The Hacker Playbook 2: Practical Guide To Penetration Testing",
+    "publicationDate": "2015-06-20"
+  },
+  {
+    "id": 17,
+    "isbn": "9781546376231",
+    "title": "ng-book: The Complete Guide to Angular 4",
+    "publicationDate": "2017-04-27"
+  },
+  {
+    "id": 18,
+    "isbn": "9781593275990",
+    "title": "Automate the Boring Stuff with Python: Practical Programming for Total Beginners",
+    "publicationDate": "2015-05-01"
+  },
+  {
+    "id": 19,
+    "isbn": "9781785885587",
+    "title": "Node.js Design Patterns - Second Edition: Master best practices to build modular and scalable server-side web applications",
+    "publicationDate": "2016-07-18"
+  },
+  {
+    "id": 20,
+    "isbn": "9781786468710",
+    "title": "Mastering TypeScript - Second Edition",
+    "publicationDate": "2017-02-24"
+  },
+  {
+    "id": 21,
+    "isbn": "9781788830751",
+    "title": "TypeScript Microservices: A complete guide to build, deploy, test, & secure microservices with TypeScript and NodeJS",
+    "publicationDate": "2018-05-09"
+  },
+  {
+    "id": 22,
+    "isbn": "9788192107592",
+    "title": "Data Structure and Algorithmic Thinking with Python: Data Structure and Algorithmic Puzzles",
+    "publicationDate": "2015-01-29"
+  }
+]

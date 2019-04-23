@@ -3,20 +3,47 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "concurrently": "^4.1.0",
+    "http-proxy-middleware": "^0.19.1",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "rxjs": "^6.4.0"
+  },
+  "devDependencies": {
     "@types/jest": "24.0.11",
+    "@types/koa": "^2.0.48",
+    "@types/koa-bodyparser": "^4.2.2",
+    "@types/koa-router": "^7.0.40",
     "@types/node": "11.13.6",
     "@types/react": "16.8.14",
     "@types/react-dom": "16.8.4",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8",
+    "@types/react-router-dom": "^4.3.2",
+    "node-sass": "^4.11.0",
+    "ts-node": "^8.1.0",
+    "tslint": "^5.16.0",
     "typescript": "3.4.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "concurrently -k \"yarn start:server\" \"yarn start:client\"",
+    "start:client": "react-scripts start",
+    "start:server": "ts-node -P tsconfig.server.json server",
+    "build": "yarn build:client && yarn build:server",
+    "build:client": "react-scripts build",
+    "build:server": "tsc -p tsconfig.server.json",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint:client": "tslint -p tsconfig.json",
+    "lint:client:fix": "tslint -p tsconfig.json --fix",
+    "lint:server": "tslint -p tsconfig.server.json",
+    "lint:server:fix": "tslint -p tsconfig.server.json --fix",
+    "lint": "yarn lint:client && yarn lint:server",
+    "lint:fix": "yarn lint:client:fix && yarn lint:server:fix"
   },
   "eslintConfig": {
     "extends": "react-app"
